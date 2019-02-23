@@ -8,7 +8,7 @@
         "category": "Custom",
         "manufacturer": "Flashforge",
         "platform": "FlashForge_CreatorPro.stl",
-        "machine_x3g_variant": "fcp",
+        "machine_x3g_variant": "r1d",
         "file_formats": "application/x3g",
         "platform_offset": [ 0, 0, 0],
         "machine_extruder_trains":
@@ -24,7 +24,7 @@
         "machine_heated_bed": { "default_value": true },
         "machine_center_is_zero": { "default_value": true },
         "machine_height": { "default_value": 100 },
-        "machine_gcode_flavor": { "default_value": "Makerbot" },
+        "machine_gcode_flavor": { "default_value": "RepRap" },
         "machine_depth": { "default_value": 148 },
         "machine_width": { "default_value": 227 },
         "machine_name": { "default_value": "Creator Pro" },
