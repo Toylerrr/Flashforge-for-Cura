@@ -1,0 +1,34 @@
+{
+    "name": "Flashforge Creator Pro",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "ItsAddles",
+        "category": "Custom",
+        "manufacturer": "Flashforge",
+        "platform": "FlashForge_CreatorPro.stl",
+        "machine_x3g_variant": "fcp",
+        "file_formats": "application/x3g",
+        "platform_offset": [ 0, 0, 0],
+        "machine_extruder_trains":
+        {
+            "0": "creatorpro_extruder_1",
+            "1": "creatorpro_extruder_2"
+        }
+    },
+
+    "overrides": {
+		"material_diameter": { "default_value": 1.75 },
+        "machine_extruder_count": { "default_value": 2 },
+        "machine_heated_bed": { "default_value": true },
+        "machine_center_is_zero": { "default_value": true },
+        "machine_height": { "default_value": 100 },
+        "machine_gcode_flavor": { "default_value": "Makerbot" },
+        "machine_depth": { "default_value": 148 },
+        "machine_width": { "default_value": 227 },
+        "machine_name": { "default_value": "Creator Pro" },
+        "machine_start_gcode": {"default_value": ";FFCP\nG90\nG162 X Y F6000\nG161 Z F9000\nM132 X Y Z A B\nG1 Z15.0 F6000\nG92 E0\nG1 F200 E3\nG92 E0" },
+        "machine_end_gcode": {"default_value": ";FFCP\nM104 S0\nM140 S0\nG92 E1\nG1 E-1 F300\nG162 X Y F6000\nM18"}      
+    }
+}
