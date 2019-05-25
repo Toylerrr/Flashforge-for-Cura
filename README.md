@@ -4,3 +4,7 @@ This will add fthe flashforge printer to your cura add printer under the custom 
 
 
 I am still working on the start and end gcode to make it work better!
+
+https://cdn.thingiverse.com/assets/39/c5/2b/7a/b5/FFCura.PNG
+
+![Cura 4](https://cdn.thingiverse.com/assets/39/c5/2b/7a/b5/FFCura.PNG)
