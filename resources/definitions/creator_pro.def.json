@@ -19,15 +19,15 @@
     },
 
     "overrides": {
+        "machine_name": { "default_value": "Creator Pro" },
+        "machine_gcode_flavor": { "default_value": "RepRap" },
 		"material_diameter": { "default_value": 1.75 },
         "machine_extruder_count": { "default_value": 2 },
         "machine_heated_bed": { "default_value": true },
         "machine_center_is_zero": { "default_value": true },
         "machine_height": { "default_value": 100 },
-        "machine_gcode_flavor": { "default_value": "RepRap" },
         "machine_depth": { "default_value": 148 },
         "machine_width": { "default_value": 227 },
-        "machine_name": { "default_value": "Creator Pro" },
         "machine_start_gcode": {"default_value": "; ** FlashForge Creator Pro Start Gcode by Toylerrr **\nM73 P0 ; Turn on build progress\nG130 X127 Y127 Z40 A127 B127 ; Reset stepper reference voltage\nG162 X Y F3600 ; \nHome X and Y axes\nG161 Z F1200 ; Home Z axis\n; Z axis calibration\nG92 Z-5 ; Set Z to -5\nG1 Z0 ; Move Z to 0\nG161 Z F100 ; Home Z slowly\n; End Z axis calibration\nM132 \n Y Z A B ; Load home offset values\nM135 T0 ; Load right extruder offset value\n G1 X150 Y-70 Z30 F9000 ; Move carriage to waiting position\nM73 P1 ; @body (For converting from gcode to binary)" },
         "machine_end_gcode": {"default_value": "; ** FlashForge Creator Pro End Gcode by Toylerrr **\nM73 P100 ; Turn off build progress\nM140 S0 ; Stop heating bed\nM104 S0 T0 ; Stop heating right extruder\nM104 S0 T1 ; \ntop heating left extruder\nG1 Z145 F1200 ; Completely lower build plate\nT0 ; Tell next job to use right extruder\nG28 X Y F2500 ; Home X and Y axes\nM18 ; Disable steppers\nM70 P5 (Finished)\nM72 P1 ; Play print complete song if sound is enabled"}      
     }
