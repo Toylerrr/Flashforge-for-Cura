@@ -8,3 +8,6 @@ I am still working on the start and end gcode to make it work better!
 
 ## :warning: Currently only workng for Cura 3.6 :warning:
 ![Cura 4.1](https://cdn.thingiverse.com/renders/12/00/68/38/1c/c7da2202001ef3739c67954b4c9dbb31_preview_featured.jpg)
+
+
+## Toylerrr#9601 ADD ME ON DISCORD IF YOU NEED HELP
