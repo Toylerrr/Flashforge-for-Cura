@@ -1,3 +1,7 @@
+# Toylerrr#9601 ADD ME ON DISCORD IF YOU NEED HELP
+
+
+
 # Flashforge-for-Cura
 
 Just download the master zip and drop the files into your cura 3.6 install folder NOT THE APPDATA
@@ -10,4 +14,4 @@ I am still working on the start and end gcode to make it work better!
 ![Cura 4.1](https://cdn.thingiverse.com/renders/12/00/68/38/1c/c7da2202001ef3739c67954b4c9dbb31_preview_featured.jpg)
 
 
-## Toylerrr#9601 ADD ME ON DISCORD IF YOU NEED HELP
+
