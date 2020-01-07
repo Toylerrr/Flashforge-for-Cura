@@ -1,4 +1,5 @@
-## :warning: USE AT YOUR OWN RISK I AM NOT RESPONSIBLE IF YOU MESS UP YOUR PRINTER :warning:
+## :warning: USE AT YOUR OWN RISK :warning:
+Just to cover my ass
 
 # Flashforge-for-Cura
 
