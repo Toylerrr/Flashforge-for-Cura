@@ -1,17 +1,13 @@
-# Toylerrr#9601 ADD ME ON DISCORD IF YOU NEED HELP
-
-
+## :warning: USE AT YOUR OWN RISK I AM NOT RESPONSIBLE IF YOU MESS UP YOUR PRINTER :warning:
 
 # Flashforge-for-Cura
 
-Just download the master zip and drop the files into your cura 3.6 install folder NOT THE APPDATA
-This will add the flashforge printer to your cura add printer under the custom tab you have to install the GPX plugin to make it work
+Just download the master zip and drop the files into your cura install folder NOT THE APPDATA (You need admin access)
+This will add the flashforge printer to your cura add printer under the Flashforge tab you have to install the GPX plugin to make it work
 
 
-I am still working on the start and end gcode to make it work better!
-
-## :warning: Currently only workng for Cura 3.6 :warning:
-![Cura 4.1](https://cdn.thingiverse.com/renders/12/00/68/38/1c/c7da2202001ef3739c67954b4c9dbb31_preview_featured.jpg)
+![Cura 4.4.1](https://i.imgur.com/Jsk94T4.png)
 
 
 
+# Toylerrr#9601 ADD ME ON DISCORD IF YOU NEED HELP
