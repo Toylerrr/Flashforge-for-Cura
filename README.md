@@ -3,7 +3,7 @@ Just to cover my ass
 
 # Flashforge-for-Cura
 
-Just download the master zip and drop the files into your cura install folder NOT THE APPDATA (You need admin access) OR use the installer under the releases section of GitHub.
+Just download the master zip and drop the files into your cura install folder NOT THE APPDATA (You need admin access) OR **use the installer under the releases section of GitHub (reccomended)**.
 This will add the flashforge printer to your cura add printer under the Flashforge tab you have to install the GPX plugin to make it work
 
 
