@@ -20,7 +20,40 @@
 
     "overrides": {
         "machine_name": { "default_value": "Creator Pro" },
-        "machine_gcode_flavor": { "default_value": "RepRap" },
+        "machine_gcode_flavor": { "default_value": "{
+    "name": "Flashforge Creator Pro",
+    "version": 2,
+    "inherits": "fdmprinter",
+    "metadata": {
+        "visible": true,
+        "author": "Toylerrr",
+        "category": "Custom",
+        "manufacturer": "Flashforge",
+        "platform": "FlashForge_CreatorPro.stl",
+        "machine_x3g_variant": "fcp",
+        "file_formats": "application/x3g",
+        "platform_offset": [ 0, 0, 0],
+        "machine_extruder_trains":
+        {
+            "0": "creatorpro_extruder_1",
+            "1": "creatorpro_extruder_2"
+        }
+    },
+
+    "overrides": {
+        "machine_name": { "default_value": "FlashForge Creator Pro" },
+        "machine_gcode_flavor": { "default_value": "Makerbot" },
+		"material_diameter": { "default_value": 1.75 },
+        "machine_extruder_count": { "default_value": 2 },
+        "machine_heated_bed": { "default_value": true },
+        "machine_center_is_zero": { "default_value": true },
+        "machine_height": { "default_value": 150 },
+        "machine_depth": { "default_value": 148 },
+        "machine_width": { "default_value": 227 },
+        "machine_start_gcode": {"default_value": ";  Replicator 1 dual start.gcode\nM73 P0 ; enable build progress\nG162 X Y F3000 ; home XY maximum\nG161 Z F1200 ; home Z minimum\nG92 Z-5 ; set Z to -5\nG1 Z0 ; move Z to 0\nG161 Z F100 ; home Z slowly\nM132 X Y Z A B ; recall home offsets\nM135 T0 ; load right extruder offsets\nG1 X150 Y-70 Z30 F9000 ; move to wait position right hand side of the table\nG130 X20 Y20 Z20 A20 B20 ; lower stepper Vrefs while heating\nM134 T0 ; stabilize bed temperature\nM133 T0 ; stabilize right extruder temperature\nM133 T1 ; stabilize left extruder temperature\nG130 X127 Y127 Z40 A127 B127 ; default stepper Vrefs\nG92 A0 B0 ; zero extruders\nM73 P1 ;@body (notify GPX body has started)\n;  end of start.gcode" },
+        "machine_end_gcode": {"default_value": ";  Replicator 1 dual end.gcode\nM73 P100 ; end build progress\nG1 Z150 F1000 ; send Z axis to bottom of machine\nM140 S0 T0 ; cool down HBP\nM104 S0 T0 ; cool down right extruder\nM104 S0 T1 ; cool down left extruder\nM127 ; stop blower fan\nG162 X Y F3000 ; home XY maximum\nM18 ; disable stepper\nM72 P1 ; play Ta-Da song\n ;end of end.gcode "}      
+    }
+}" },
 		"material_diameter": { "default_value": 1.75 },
         "machine_extruder_count": { "default_value": 2 },
         "machine_heated_bed": { "default_value": true },
