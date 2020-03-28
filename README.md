@@ -1,5 +1,8 @@
 ## :warning: USE AT YOUR OWN RISK :warning:
 Just to cover my ass
+# Note
+This is quick and dirty, I reccomend this fork that has a little more attention to detail 
+https://github.com/eugr/Flashforge-for-Cura
 
 # Flashforge-for-Cura
 
