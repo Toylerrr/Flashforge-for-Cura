@@ -1,11 +1,11 @@
 ## :warning: USE AT YOUR OWN RISK :warning:
 Just to cover my ass
-# Note
-This is quick and dirty and just 'works', I reccomend this fork that has a little more attention to detail
-https://github.com/eugr/Flashforge-for-Cura
 
 # Flashforge-for-Cura
+This profile is able to be used with the Flashforge Creator Pro and the Flashforge Max. The lack of heating gcodes in the start script is BY design! If you put the temps into the gcode then both will heat up everytime you use the printer not just the side being used.
 
+
+## How to install
 Just download the master zip and drop the files into your cura install folder NOT THE APPDATA (You need admin access) 
 
 OR
