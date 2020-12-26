@@ -2,7 +2,9 @@
 Just to cover my ass
 
 # Flashforge-for-Cura
-This profile is able to be used with the Flashforge Creator Pro and the Flashforge Max. The lack of heating gcodes in the start script is BY design! If you put the temps into the gcode then both will heat up everytime you use the printer not just the side being used.
+This profile is able to be used with the Flashforge Creator Pro The lack of heating gcodes in the start script is BY design! If you put the temps into the gcode then both will heat up everytime you use the printer not just the side being used.
+
+PLEASE NOTE AS OF RIGHT NOW THE MAX DOESNT WORK
 
 
 ## How to install
