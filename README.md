@@ -1,3 +1,6 @@
+# :warning: CURRENTLY NOT WORKING :warning:
+Users have reported this not working and I dont own this printer anymore. 
+
 ## :warning: USE AT YOUR OWN RISK :warning:
 Just to cover my ass
 
@@ -21,4 +24,3 @@ Always make sure that you have a skirt around your print because this profile do
 
 
 
-# Toylerrr#9601 ADD ME ON DISCORD IF YOU NEED HELP
